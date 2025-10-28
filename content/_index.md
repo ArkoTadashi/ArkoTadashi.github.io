@@ -17,7 +17,10 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Arko Sikder - CV.pdf
+      button:
+        text: Download Transcript
+        url: uploads/Arko Sikder - Transcript.pdf
       headings:
         about: ''
         education: ''
