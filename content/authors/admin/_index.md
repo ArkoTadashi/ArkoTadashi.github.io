@@ -36,20 +36,19 @@ profiles:
   - icon: at-symbol
     url: 'mailto:aurosikder@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/ArkoTadashi
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/arko-s-475503124/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/
 
 interests:
   - Graphs and Algorithms
   - Secure AI
+  - Machine Learning
   - Cybersecurity
 
 education:
@@ -82,54 +81,49 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Python & C++
         description: ''
-        percent: 95
         icon: code-bracket
       - name: Machine Learning
         description: ''
-        percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Problem Solving
         description: ''
-        percent: 85
         icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Walking with IEMs
         description: ''
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Mechanical Keyboards
         description: ''
         percent: 90
         icon: cpu-chip
-      - name: Sci-Fi Reading
+      - name: Sci-Fi Movies
         description: ''
         percent: 70
-        icon: book-open
+        icon: movies
 
 languages:
   - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Bangla
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
+  - title: Bangladesh Math Olympiad
     url: https://neurips.cc/
     date: '2022-12-01'
     awarder: NeurIPS
     icon: hero/trophy
     summary: |
       Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
+  - title: Inter University Programming Competition
     url: https://www.nsf.gov/
     date: '2021-06-15'
     awarder: National Science Foundation
