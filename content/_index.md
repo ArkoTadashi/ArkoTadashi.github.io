@@ -15,9 +15,12 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
+      buttons:
         - text: 'Download CV'
           url: 'uploads/Arko Sikder - CV.pdf'
+          style: primary
+        - text: 'Download Transcript'
+          url: 'uploads/Arko Sikder - Transcript.pdf'
       headings:
         about: ''
         education: ''
