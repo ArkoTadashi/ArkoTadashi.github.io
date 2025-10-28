@@ -61,13 +61,14 @@ education:
     summary: |
       GPA: 3.68/4.0
 
-      Thesis on _NP-Completeness of UPSE in Maximum Outerplanar Graphs and Finding a Polynomial Time Algorithm for MCS on Cycles_. Supervised by Prof. Dr. Saidur Rahman.
+      Thesis on _NP-Completeness of UPSE in Maximum Outerplanar Graphs and Finding a Polynomial Time Algorithm for MCS on Cycles_. 
+      Supervised by Prof. Dr. Saidur Rahman.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
 
 work:
-  - position: Lecturer at Dept. of CSE
+  - position: Lecturer - Dept. of CSE
     company_name: Presidency University
     company_url: https://pu.edu.bd/
     icon: ''
