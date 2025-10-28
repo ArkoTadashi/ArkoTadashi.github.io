@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Lecturer
+role: Lecturers
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
