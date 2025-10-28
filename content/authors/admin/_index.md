@@ -23,18 +23,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Lecturer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Presidency University
+    url: https://pu.edu.bd/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:aurosikder@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/AlexAIResearch
@@ -48,58 +48,33 @@ profiles:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Graphs and Algorithms
+  - Secure AI
+  - Cybersecurity
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: BS Computer Science
+    institution: BUET
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2019-11-01
+    date_end: 2025-03-25
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      GPA: 3.68/4.0
+
+      Thesis on _NP-Completeness of UPSE in Maximum Outerplanar Graphs and Finding a Polynomial Time Algorithm for MCS on Cycles_. Supervised by Prof. Dr. Saidur Rahman.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Lecturer at Dept. of CSE
+    company_name: Presidency University
+    company_url: https://pu.edu.bd/
     icon: ''
-    date_start: 2020-01-01
+    date_start: 2025-05-19
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Trainer and Moderator at Presidency University Programming Club that focuses on Competitive Programming.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
