@@ -22,6 +22,9 @@ sections:
         about: ''
         education: ''
         interests: ''
+  - block: toefl-scores
+    content:
+      title: 'TOEFL Scores'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient

@@ -107,11 +107,19 @@ skills:
         percent: 70
         icon: books-open
 
-toefl score:
+toefl_scores:
   - name: Reading
-    percent: 28
+    score: 28
+    max_score: 30
   - name: Listening
-    percent: 27
+    score: 27
+    max_score: 30
+  - name: Speaking
+    score: 22
+    max_score: 30
+  - name: Writing
+    score: 26
+    max_score: 30
 
 # Awards.
 #   Add/remove as many awards below as you like.
