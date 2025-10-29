@@ -105,38 +105,33 @@ skills:
       - name: Sci-Fi Movies
         description: ''
         percent: 70
-        icon: movies
+        icon: books-open
 
-languages:
-  - name: English
-  - name: Bangla
+toefl score:
+  - name: Reading
+    percent: 28
+  - name: Listening
+    percent: 27
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Bangladesh Math Olympiad
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Bangladesh Math Olympiad National Award
+    url: https://matholympiad.org.bd/
+    date: '2012-01-01 - 2019-12-12'
+    awarder: BdMO
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
+      Multiple National and Regional Math Olympiad Awards
   - title: Inter University Programming Competition
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+    url: https://codeforces.com/profile/__277LB3__
+    date: '2019-10-01 - 2023-10-01'
+    awarder: IUPC
+    icon: hero/trophy
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Multiple Top 10 Positions in IUPCs
 ---
 
 Arko Sikder is a Lecturer in Computer Science at Presidency University, Bangladesh. His interests span graph algorithms, artificial intelligence, and cybersecurity. A multiple-time National Math Olympiad medalist and ICPC coach, he is passionate about algorithmic problem solving and advancing intelligent, secure computational systems through rigorous research and mentorship.
