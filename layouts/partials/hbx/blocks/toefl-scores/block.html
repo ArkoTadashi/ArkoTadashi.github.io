@@ -1,0 +1,29 @@
+{{/* TOEFL Scores Block */}}
+
+{{ $block := .Block }}
+{{ $page := .page }}
+
+<div class="mb-3">
+  {{/* Title */}}
+  {{ with $block.content.title }}
+    <h2 class="text-3xl font-bold mb-6">{{ . }}</h2>
+  {{ end }}
+
+  {{/* Get user profile */}}
+  {{ $profile := site.GetPage (printf "/authors/%s" $block.content.username | default "admin") }}
+  
+  <div class="row g-4">
+    {{ range $profile.Params.toefl_scores }}
+      <div class="col-12 col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title h5 mb-3">{{ .name }}</h3>
+            <div class="d-flex align-items-center">
+              <span class="h2 mb-0 me-2">{{ .score }}/{{ .max_score }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>

@@ -25,6 +25,7 @@ sections:
   - block: toefl-scores
     content:
       title: 'TOEFL Scores'
+      username: admin
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
