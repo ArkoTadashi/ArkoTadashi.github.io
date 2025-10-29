@@ -105,7 +105,7 @@ skills:
       - name: Sci-Fi Movies
         description: ''
         percent: 70
-        icon: books-open
+        icon: book-open
 
 toefl_scores:
   - name: Reading
@@ -128,14 +128,16 @@ toefl_scores:
 awards:
   - title: Bangladesh Math Olympiad National Award
     url: https://matholympiad.org.bd/
-    date: '2012-01-01 - 2019-12-12'
+    date_start: '2012-01-01'
+    date_end: '2019-12-12'
     awarder: BdMO
     icon: hero/trophy
     summary: |
       Multiple National and Regional Math Olympiad Awards
   - title: Inter University Programming Competition
     url: https://codeforces.com/profile/__277LB3__
-    date: '2019-10-01 - 2023-10-01'
+    date_start: '2019-10-01'
+    date_end: '2023-10-01'
     awarder: IUPC
     icon: hero/trophy
     summary: |
