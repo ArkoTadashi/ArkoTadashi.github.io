@@ -1,0 +1,30 @@
+{{/* TOEFL Scores block (theme override) */}}
+{{ $block := .block }}
+{{ $page := .page }}
+
+<div class="hbx-block toefl-scores">
+  {{ with $block.content.title }}
+    <h2 class="hbx-block-title">{{ . }}</h2>
+  {{ end }}
+
+  {{/* Get profile page (defaults to admin if not specified) */}}
+  {{ $username := $block.content.username | default "admin" }}
+  {{ $profile := site.GetPage (printf "/authors/%s" $username) }}
+
+  {{ if $profile }}
+    <div class="row g-3">
+      {{ range $profile.Params.toefl_scores }}
+        <div class="col-12 col-md-6">
+          <div class="hbx-card p-3 border rounded">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="hbx-score-name">{{ .name }}</div>
+              <div class="hbx-score-value h4 mb-0">{{ .score }}/{{ .max_score }}</div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p>No TOEFL scores found for user '{{ $username }}'.</p>
+  {{ end }}
+</div>
