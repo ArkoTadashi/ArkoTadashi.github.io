@@ -53,18 +53,28 @@ interests:
 
 education:
   - area: BS Computer Science
-    institution: BUET
+    institution: Bangladesh University of Engineering and Technology
     icon: ""
     date_start: 2019-11-01
     date_end: 2025-03-25
     summary: |
       GPA: 3.68/4.0
 
-      Thesis on _NP-Completeness of UPSE in Maximum Outerplanar Graphs and Finding a Polynomial Time Algorithm for MCS on Cycles_. 
-      Supervised by Prof. Dr. Saidur Rahman.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      Thesis on _NP-Completeness of UPSE in Maximum Outerplanar Graphs and Finding a Polynomial Time Algorithm for MCS on Cycles_ - Supervised by Prof. Dr. Saidur Rahman.
+
+      - [Read Abstract](/uploads/Arko%20Sikder%20-%20Abstract.pdf)
+      - [Check Transcript](/uploads/Arko%20Sikder%20-%20Transcript.pdf)
+  - area: HSC Science
+    institution: Notre Dame College
+    icon: ""
+    date_start: 2017-07-01
+    date_end: 2019-08-15
+    summary: |
+      GPA: 5.0/5.0
+
+      Moved to a new city, away from my family, for the first time. Learnt a lot, the mentors were maybe few of the best I have ever had.
+
+      
 
 work:
   - position: Lecturer - Dept. of CSE
@@ -75,6 +85,8 @@ work:
     date_end: ''
     summary: |2-
       Trainer and Moderator at Presidency University Programming Club that focuses on Competitive Programming.
+
+      - [Profile](https://pu.edu.bd/cse/employees/arko-sikder/)
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -94,7 +106,7 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Walking with IEMs
+      - name: Music and IEMs
         description: ''
         percent: 80
         icon: person-simple-walk
@@ -107,26 +119,12 @@ skills:
         percent: 70
         icon: book-open
 
-toefl_scores:
-  - name: Reading
-    score: 28
-    max_score: 30
-  - name: Listening
-    score: 27
-    max_score: 30
-  - name: Speaking
-    score: 22
-    max_score: 30
-  - name: Writing
-    score: 26
-    max_score: 30
-
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Bangladesh Math Olympiad National Award
+  - title: Bangladesh Math Olympiad National
     url: https://matholympiad.org.bd/
     date_start: '2012-01-01'
     date_end: '2019-12-12'
